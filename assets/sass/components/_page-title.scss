@@ -1,0 +1,64 @@
+/// page-title
+.wpo-page-title {
+	min-height: 80px;
+	position: relative;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	border-bottom: 1px solid #F0F0F0;
+
+
+	.wpo-breadcumb-wrap {
+		text-align: left;
+
+		ol {
+			padding-left: 0;
+			margin-bottom: 0;
+
+			li {
+				display: inline-block;
+				padding: 0px 5px;
+				padding-right: 20px;
+				color: $heading-color;
+				position: relative;
+				font-family: $base-font;
+				font-weight: 600;
+				font-size: 18px;
+				line-height: 30px;
+
+				&:last-child {
+					padding-right: 0;
+				}
+
+				&:after {
+					content: "\f109";
+					font-family: flaticon_ecommerce !important;
+					position: absolute;
+					right: 0;
+					top: 50%;
+					transform: translateY(-50%);
+					font-size: 9px;
+				}
+
+				&:last-child {
+					span {
+						color: $heading-color;
+					}
+
+					&:after {
+						display: none;
+					}
+				}
+
+				a {
+					color: $heading-color;
+					transition: all .3s;
+
+					&:hover {
+						color: $theme-primary-color;
+					}
+				}
+			}
+		}
+	}
+}
