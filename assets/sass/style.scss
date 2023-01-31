@@ -1,6 +1,6 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
-Theme Name: métier - eCommerce HTML5 Template;    
+Theme Name: ProMax - eCommerce HTML5 Template;    
 Version:        1.0.0
 -------------------------------------------------------------------*/
 
@@ -18,45 +18,37 @@ Version:        1.0.0
 	2.2 navigation
 
 3. content
-	3.1 wpo-hero-slider
-	3.2 wpo-features-section
-	3.3 wpo-contact-section
-	3.4 wpo-service-section
-	3.5 wpo-case-section
-	3.6 wpo-testimonials-section
-	3.7 wpo-team-section
-	3.8 wpo-consultancy-section
-	3.9 wpo-blog-section
+	3.1 wpo-static-hero
+	3.2 ecommerc-service-section
+	3.3 ecommerc-arrival-section 
+	3.4 ecommerc-best-seller-section
+	3.5 ecommerc-cta-section
+	3.6 ecommerc-discount-section
+	3.7 tb-subscribe-section
 
 4. wpo-footer
 
-5. Home-style-2
-   5.1	wpo-features-section-s2
-   5.2	wpo-about-section
-   5.3	wpo-service-section-s2
-   5.4	wpo-fun-fact-section
+6. Shop-Page
 
-6. wpo-Attorney-single
+7. shop-Single-page
 
-7. wpo-service-single-section
+8. wpo-wishlist-page
 
-8. wpo-case-section
+9. cart-area-page
 
-9. wpo-cart-page-style
+10. wpo-order-page
 
-10. wpo-checkout-page-style
+11. wpo-blog-pg-section
 
-11. wpo-shop-page
+12. wpo-blog-single-section
 
-12. wpo-shop-single-page
-
-13. wpo-pricing-page
+13. ecommerc-compare-section
 
 14. wpo-faq-page
 
-15. wpo-blog-pg-section
+15. login-design
 
-16. wpo-blog-single-section
+16. wpo-checkout-page
 
 17. wpo-contact-pg-section
 
@@ -100,7 +92,6 @@ Version:        1.0.0
 
 // page
 @import "page/home-default";
-
 
 @import "page/shop";
 
